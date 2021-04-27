@@ -3,7 +3,7 @@ import { FiX } from "react-icons/fi";
 import { Container } from "./styles";
 
 export default function SignInButton() {
-  const isUserLoggedIn = true;
+  const isUserLoggedIn = false;
 
   return isUserLoggedIn ? (
     <Container type="button">

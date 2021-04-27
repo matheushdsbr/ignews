@@ -1,5 +1,9 @@
 import { Container } from "./styles";
 
-export default function SubscribeButton() {
+interface SubscribeButtonProps {
+  priceId: string;
+}
+
+export default function SubscribeButton({ priceId }: SubscribeButtonProps) {
   return <Container type="button">Subscribe now</Container>;
 }
