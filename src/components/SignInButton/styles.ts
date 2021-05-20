@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.button`
+export const Button = styled.button`
   background: var(--gray-850);
   border: 0;
   height: 3rem;
